@@ -3,8 +3,9 @@ Landing page to test foundational css skills
 
 ## Progress
 
-[x] - Header
-[x] - Hero Section
+[✔️] - Header
+
+[✔️] - Hero Section
 
 ## Creatives Used
 
