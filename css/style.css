@@ -1,16 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: "Roboto", serif;
+}
+
 .container {
     max-width: 980px;
-    height: 350px;
+    /* height: 350px; */
     margin: auto;
     border: 1px solid red;
 }
 
 .section {
-    background-color: aliceblue;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero_header {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero_header .links ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero_content {
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero_content_left p, .hero_content_left h2 {
+    margin-bottom: 16px;
+}
+
+.button {
+    padding: 8px 24px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.hero_content_right img {
+    max-width: 480px;
 }

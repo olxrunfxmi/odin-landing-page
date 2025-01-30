@@ -1,5 +1,10 @@
-# odin-landing-page
+# Odin Landing Page
 Landing page to test foundational css skills
+
+## Progress
+
+[x] - Header
+[x] - Hero Section
 
 ## Creatives Used
 
