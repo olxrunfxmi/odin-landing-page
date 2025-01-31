@@ -12,14 +12,16 @@ body {
 
 .container {
     max-width: 980px;
-    /* height: 350px; */
     margin: auto;
-    border: 1px solid red;
 }
 
 .section {
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.hero {
+    padding-bottom: 48px;
 }
 
 .hero_header {
@@ -124,6 +126,10 @@ blockquote {
     margin-right: 24px;
 }
 
+h4  {
+    font-size: 24px;
+}
+
 .cta {
     background-color: #ffffff;
     color: #e5e7e5;
@@ -134,7 +140,8 @@ blockquote {
     background-color: #3882f6;
     padding: 32px 64px;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    border-radius: 12px; 
 }
 
 .alternate-btn {
@@ -147,3 +154,4 @@ blockquote {
     align-items: center;
     padding: 24px;
 }
+
