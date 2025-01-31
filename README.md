@@ -9,7 +9,11 @@ Landing page to test foundational css skills
 
 [✔️] - Information Section
 
-[✔️] - Quote Section
+[✔️] - Quote 
+
+[✔️] - CTA Section
+
+[✔️] - Footer Section
 
 ## Creatives Used
 

@@ -54,6 +54,11 @@ body {
     gap: 32px;
 }
 
+.hero_content_left_text {
+    color: #e5e7e5;
+    font-size: 18px;
+}
+
 h2 {
     font-size: 48px;
     font-weight: 900;
@@ -117,4 +122,28 @@ blockquote {
     text-align: end;
     font-weight: bold;
     margin-right: 24px;
+}
+
+.cta {
+    background-color: #ffffff;
+    color: #e5e7e5;
+    padding: 64px 0;
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.alternate-btn {
+    border: 1px solid #eff5fe;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
